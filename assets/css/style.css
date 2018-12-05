@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none outside none;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 15px;
+}
+a:focus, input:focus, textarea:focus, button:focus {
+  outline: 0 solid; }
+
+a {
+  text-decoration: none; }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 15px;
+  font-family: 'Indie Flower', cursive;
+}
+
+body{
+
+ font-family: 'Indie Flower', cursive;
+  font-size: 14px;
+  line-height: 1.8;
+  box-sizing: border-box;
+}
+/* nav bar */
+.transparent{
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.navbar-toggler-icon{
+ border: 5px solid black;
+ padding: 30px;
+ color: #f15025;
+}
+
+.nav-link, .navbar-brand{
+color: #F15025 !important;
+font-style: italic;
+}
+.navbar a:hover{
+  color: whitesmoke !important;
+}
+
+/* nav end */
+
+header{
+  height: 100vh;
+  background-image: url(../img/banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.banner-center {
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner-under-line {
+  width: 300px;
+  border: 3px solid #ddd;
+  margin: 0 auto 20px;
+}
+.banner-center a{
+border-radius: 20px;
+text-decoration: none;
+color: whitesmoke;
+margin: 0 auto;
+border: 3px solid whitesmoke;
+width: 300px;
+transition: all .3s ease-in-out;
+
+}
+.banner-center a:hover, .banner-center a:focus{
+  color: #f15025;
+  background: whitesmoke;
+}
+
+
+.title {
+  margin: 20px 0;
+}
+.text-underline {
+  width: 300px;
+  border: 3px solid #f15025;
+  margin: 0 auto 10px auto;
+}
+#skrils {
+  padding: 40px;
+  color: #2d3142;
+  margin-bottom: 10px;
+}
+
+
+
+a.skril-btn {
+  margin-bottom: 20px;
+  background-color: #f15825;
+  color: whitesmoke;
+  font-size: 20px;
+  cursor: pointer;
+}
+a.skril-btn:hover {
+  background: #ddd;
+}
+/* about start section */
+#about{
+  background-color: #2d3142;
+}
+#about .pic{
+  height: 600px;
+  background-image: url('../img/about_bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  border-bottom: 600px solid transparent;
+  border-left: 100px solid #2d3142
+}
+#about .box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* contract section here */
+#contract{
+padding: 40px;
+background-color:whitesmoke;
+}
+
+#contract .form-control{
+  border-radius: 0 !important;
+  font-size: 20px;
+
+}
+#contract button{
+  background-color: #353531;
+  color: #F15025;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+#contract button:hover{
+  background-color: #ddd;
+}
+/* contract and copyright */
+#footer{
+  padding: 40px;
+  color: whitesmoke;
+  background-color: #353531;
+}
+#footer .footer-icon{
+  font-size: 60px;
+  padding-top: 30px;
+
+}
+#footer .text-underline{
+  margin-bottom: 40px;
+}
+#footer .footer-icon a{
+  color: deepskyblue;
+  text-decoration: none;
+}
+#footer .footer-icon a:hover{
+  color: #f15025;
+}
+.copyright{
+padding: 40px 0;
+color: #cedbce;
+}
